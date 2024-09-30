@@ -1,0 +1,79 @@
+# cloud native
+# Twelve factor app
+# microservices principles
+# microservices design patterns
+# demerits of microservices
+
+- spring core?
+
+
+## Cloud native
+- it increases efficiency
+- reduces cost
+- ensure availability
+
+
+traditional enterprise vs cloud enterprise
+traditional enterprise
+uses less flexible software development methods
+longer time to deploy
+not scalable
+OS dependent
+
+cloud enterprise
+uses a collaborative approach
+automated deployment
+highly scalable
+OS independent
+
+terminologies
+- cloud native
+- cloud computing
+- cloud enabled
+
+## Twelve factor app
+- A set of 12 principles for creating a SaaS applications
+
+
+## spring
+- spring data JPA
+- spring web / spring MVC
+
+## Microservices Design Principles
+- Independent and Autonomous/Self-governing services
+- API aggregation
+- Flexibility
+- Scalability
+- Constant monitoring
+- Failure Isolation / Failure resilience
+- Realtime Load balancing
+- Inclusion of DevOps
+- Versioning
+- Availability
+
+## Design Patterns
+- service registry
+	- keeps track of all the services in your system.
+	- eureka is a service registry provider.
+- circuit breaker
+	- used when a service is exhibiting high latency or is completely unresponsive.
+	- Three states: Open, Closed, Half-Open.
+- api gateway
+	- a single point of entry for client to access the application's services.
+- event driven architecture
+	- when a service performs an action that other services need to know about, it emits an event - a record of the action.
+	- Other services then react to the event as necessary.
+	- this is a powerful way to decouple services.
+	- Allows for highly scalable and robust systems.
+- Database per service
+	- each microservice must have it's own database.
+
+## Demerits of Microservices
+- this isn't always the best choice for every organization.
+- before committing, you'll want to make sure that a microservices migration aligns with your organization's culture and business objectives.
+
+## create an employee application using spring
+- emp id
+- emp name
+- emp designation
+- emp salary
