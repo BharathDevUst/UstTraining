@@ -7,18 +7,21 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="customer-service" />
+        <module name="department-service" />
+        <module name="service-registry (1) (com.demo)" />
+        <module name="employee-service" />
         <module name="config-server" />
         <module name="authentication-service" />
         <module name="swiggy-user" />
         <module name="swiggy-driver" />
-        <module name="customer-service" />
-        <module name="department-service" />
-        <module name="service-registry (1) (com.demo)" />
+        <module name="service-registry (2) (com.ust)" />
+        <module name="spring-rabbitmq-producer-app" />
         <module name="api-gateway" />
         <module name="order-service" />
         <module name="service-registry" />
         <module name="monolithic-spring-security" />
-        <module name="employee-service" />
+        <module name="spring-rabbitmq-consumer-app" />
       </profile>
     </annotationProcessing>
   </component>
@@ -32,8 +35,10 @@
       <module name="employee-service" options="-parameters" />
       <module name="monolithic-spring-security" options="-parameters" />
       <module name="order-service" options="-parameters" />
-      <module name="service-registry" options="-parameters" />
       <module name="service-registry (1) (com.demo)" options="-parameters" />
+      <module name="service-registry (2) (com.ust)" options="-parameters" />
+      <module name="spring-rabbitmq-consumer-app" options="-parameters" />
+      <module name="spring-rabbitmq-producer-app" options="-parameters" />
       <module name="swiggy-driver" options="-parameters" />
       <module name="swiggy-user" options="-parameters" />
     </option>
