@@ -29,13 +29,13 @@ you can use **Cloud Config** or **Native Config**.
 10. [x] create circuit breakers using Resilence4J - EOD[27/09/2024]
 
 
-6. Interservice communication using RestClient
-  ```Java
-  
-8. change `spring-cloud-starter-gateway-mvc` to `spring-cloud-starter-gateway` in `pom.xml` file.
-   Add `@EnableDiscoveryClient` above the class with main method.
-   add properties in `application.properties` file
-   start the application
+[6] Interservice communication using RestClient
+
+[8] 
+change `spring-cloud-starter-gateway-mvc` to `spring-cloud-starter-gateway` in `pom.xml` file.
+   - Add `@EnableDiscoveryClient` above the class with main method.
+   - add properties in `application.properties` file
+   - start the application
 
 
 # Task
